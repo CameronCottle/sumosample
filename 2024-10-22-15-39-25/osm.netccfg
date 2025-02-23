@@ -11,7 +11,7 @@
     </input>
 
     <output>
-        <output-file value="osm.net.xml.gz"/>
+        <output-file value="temp.net.xml"/>
         <output.street-names value="true"/>
         <output.original-names value="true"/>
     </output>

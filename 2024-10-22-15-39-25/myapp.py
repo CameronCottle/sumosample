@@ -13,7 +13,7 @@ SUMO_BINARY = "sumo"  # or "sumo-gui" for the GUI version
 SUMO_CFG_FILE = "osm.sumocfg"  # Update with your sumocfg path
 
 def sumo_simulation():
-    traci.start([SUMO_BINARY, "-c", SUMO_CFG_FILE])
+    traci.start([SUMO_BINARY, "-c", SUMO_CFG_FILE, "--start"])
 
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
@@ -42,7 +42,7 @@ def handle_connect():
 
 @app.route('/')
 def index():
-    return render_template('index.html', mapbox_token="pk.wQz89mZO19Sf6XyxhO05ig")
+    return render_template('index.html', mapbox_token="pk.eyJ1IjoiY2FtY290dGxlIiwiYSI6ImNtN2dscjZsbjBjcnEyc3B0cjd2NG5hdnAifQ.q2giKiZ15tBz3DXiBq3xew")
 
 if __name__ == "__main__":
     sumo_thread = threading.Thread(target=sumo_simulation)

@@ -2,7 +2,7 @@
 
 <!-- generated on 2024-10-22 15:39:45.750667 by osmWebWizard.py v1_20_0+0002-343658e7c64
 <configuration>
-    <net-file value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\osm.net.xml.gz"/>
+    <net-file value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\temp.net.xml"/>
     <output-trip-file value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\osm.passenger.trips.xml"/>
     <route-file value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\osm.passenger.rou.xml"/>
     <prefix value="veh"/>
@@ -25,7 +25,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\osm.net.xml.gz"/>
+        <net-file value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\temp.net.xml"/>
         <route-files value="C:\Users\ethan\Sumo\2024-10-22-15-39-25\osm.passenger.trips.xml"/>
     </input>
 
